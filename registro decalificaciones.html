@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="calificaciones.css">
+    
+</head>
+<body>
+   
+    <h1>Registro de calificaciones</h1>
+    <form id="studentForm">
+        <label for="matricula">Matrícula:</label><br>
+        <input type="text" id="matricula" name="matricula"><br>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="ingles">Inglés:</label><br>
+        <input type="number" id="ingles" name="ingles" min="0" max="100"><br>
+        <label for="matematicas">Matemáticas:</label><br>
+        <input type="number" id="matematicas" name="matematicas" min="0" max="100"><br>
+        <label for="espanol">Español:</label><br>
+        <input type="number" id="espanol" name="espanol" min="0" max="100"><br>
+        <label for="artes">Artes:</label><br>
+        <input type="number" id="artes" name="artes" min="0" max="100"><br>
+        <label for="geografia">Geografía:</label><br>
+        <input type="number" id="geografia" name="geografia" min="0" max="100"><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <table id="resultsTable">
+        <tr>
+            <th>Matrícula</th>
+            <th>Nombre</th>
+            <th>Inglés</th>
+            <th>Matemáticas</th>
+            <th>Español</th>
+            <th>Artes</th>
+            <th>Geografía</th>
+            <th>Promedio</th>
+        </tr>
+    </table>
+    <script src="calificacion.js"></script>
+   
+    
+</div>
+</body>
+</html>
+
